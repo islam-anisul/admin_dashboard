@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- all meta -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- all meta -->
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Clicker+Script&display=swap" rel="stylesheet">
+    <!-- fonts -->
+    <!-- all css link -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <!-- all css link -->
+    <title>ReHa | Admin Dashboard</title>
+</head>
+
+<body>
+    <header>
+        <!-- top bar start         -->
+        <section id="topbar">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-8 col-md-8 col-sm-12 col-12">
+                        <div class="top_left d-flex">
+                            <div class="logo">
+                                <a href="index.html"><img src="img/logo.png" alt="LoGo" class="img-fluid"></a>
+                            </div>
+                            <div class="menu_toggler ml-5">
+                                <div class="toggle_btn"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-12 col-12">
+                        <div class="notification text-right">
+                            <ul>
+                                <li>
+                                    <a href="#" class="notify"><i class="fa fa-envelope-o"></i></a>
+                                    <span class="text-white">5</span>
+                                </li>
+                                <li>
+                                    <a href="#" class="notify"><i class="fa fa-users"></i></a>
+                                    <span class="text-white">15</span>
+                                </li>
+                                <li>
+                                    <a href="#" class="notify"><i class="fa fa-bell-o"></i></a>
+                                    <span class="text-white">5</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- top bar start-->
+
+        <!-- sidebar start -->
+        <section id="sidebar">
+            <div class="sidebar_content">
+                <div class="sidebar_item">
+                    <div class="user">
+                        <img src="img/user.png" alt="User" class="img-fluid">
+                        <p class="user_name">Anisul Islam</p>
+                        <p class="user_stat"><i class="fa fa-circle"></i></p>
+                    </div>
+                    <div class="main_menu">
+                        <ul>
+                            <li class="menu_item"><a href="index.html" class="menu_link"><i
+                                        class="fa fa-home"></i>&nbsp;Dashboard</a></li>
+                            <li class="menu_item"><a href="user_manage.html" class="menu_link"><i class="fa fa-user"></i>&nbsp;User
+                                    Management</a></li>
+                            <li class="menu_item"><a href="data_center.html" class="menu_link"><i class="fa fa-database">&nbsp;Data
+                                        Center</i></a></li>
+                            <li class="menu_item"><a href="#" class="menu_link"><i class="fa fa-power-off"></i>&nbsp;Log
+                                    Off</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- sidebar end -->
+    </header>
+
+    <main class="active_side">
+        <!-- bread crumb -->
+        <section id="bread_crumb">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-12">
+                        <div class="br_content">
+                            <div class="br_item">
+                                <p><i class="fa fa-home"></i>&nbsp;Home <i class="fa fa-angle-double-right"></i>
+                                    Data Center</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- bread crumb end -->
+
+        <div class="main_content">
+            <section id="data_center">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12 col-md-12 col-sm-12 col-12">
+                            <div class="section_title">
+                                <h1 class="title">Data Center</h1>
+                            </div>
+                        </div>
+                    </div>
+                    <div class=" inner_content_gap">
+
+                        <div class="data_content">
+                            <div class="card">
+                                <div class="card-header">
+                                    <i class="fa fa-database"></i> User Data
+                                </div>
+                                <div class="card-body">
+                                    <div class="row">
+                                        <div class="col-lg-10 col-md-10 col-sm-12 col-12 m-auto">
+                                            <table class="table table-striped table-bordered">
+                                                <thead>
+                                                    <tr>
+                                                        <th scope="col">#</th>
+                                                        <th scope="col">User Name</th>
+                                                        <th scope="col">Full Name</th>
+                                                        <th scope="col">Email</th>
+                                                        <th scope="col">Phone</th>
+                                                        <th scope="col">Status</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    <tr>
+                                                        <td>1</td>
+                                                        <td>abc</td>
+                                                        <td>Anisul Islam</td>
+                                                        <td>getanisul@gmail.com</td>
+                                                        <td>01752958028</td>
+                                                        <td>Active</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>2</td>
+                                                        <td>dkjfh</td>
+                                                        <td>John Doe</td>
+                                                        <td>john@gmail.com</td>
+                                                        <td>01752958028</td>
+                                                        <td>Suspended</td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card_footer">
+                                    <p>This is card footer</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <footer class="active_side">
+        <section id="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-12">
+                        <div class="footer_content">
+                            <div class="footer_item text-center text-white">
+                                <p>&copy; ReHa | Admin Dashboard, All rights reserved, 2021</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </footer>
+    <!-- all js link -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/custom.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- all meta -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- all meta -->
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Clicker+Script&display=swap" rel="stylesheet">
+    <!-- fonts -->
+    <!-- all css link -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <!-- all css link -->
+    <title>ReHa | Admin Dashboard</title>
+</head>
+
+<body>
+    <header>
+        <!-- top bar start         -->
+        <section id="topbar">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-8 col-md-8 col-sm-12 col-12">
+                        <div class="top_left d-flex">
+                            <div class="logo">
+                                <a href="index.html"><img src="img/logo.png" alt="LoGo" class="img-fluid"></a>
+                            </div>
+                            <div class="menu_toggler ml-5">
+                                <div class="toggle_btn"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-12 col-12">
+                        <div class="notification text-right">
+                            <ul>
+                                <li>
+                                    <a href="#" class="notify"><i class="fa fa-envelope-o"></i></a>
+                                    <span class="text-white">5</span>
+                                </li>
+                                <li>
+                                    <a href="#" class="notify"><i class="fa fa-users"></i></a>
+                                    <span class="text-white">15</span>
+                                </li>
+                                <li>
+                                    <a href="#" class="notify"><i class="fa fa-bell-o"></i></a>
+                                    <span class="text-white">5</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- top bar start-->
+
+        <!-- sidebar start -->
+        <section id="sidebar">
+            <div class="sidebar_content">
+                <div class="sidebar_item">
+                    <div class="user">
+                        <img src="img/user.png" alt="User" class="img-fluid">
+                        <p class="user_name">Anisul Islam</p>
+                        <p class="user_stat"><i class="fa fa-circle"></i></p>
+                    </div>
+                    <div class="main_menu">
+                        <ul>
+                            <li class="menu_item"><a href="index.html" class="menu_link"><i
+                                        class="fa fa-home"></i>&nbsp;Dashboard</a></li>
+                            <li class="menu_item"><a href="user_manage.html" class="menu_link"><i class="fa fa-user"></i>&nbsp;User
+                                    Management</a></li>
+                            <li class="menu_item"><a href="data_center.html" class="menu_link"><i class="fa fa-database">&nbsp;Data
+                                        Center</i></a></li>
+                            <li class="menu_item"><a href="#" class="menu_link"><i class="fa fa-power-off"></i>&nbsp;Log
+                                    Off</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- sidebar end -->
+    </header>
+
+    <main class="active_side">
+        <!-- bread crumb -->
+        <section id="bread_crumb">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-12">
+                        <div class="br_content">
+                            <div class="br_item">
+                                <p><i class="fa fa-user-plus"></i>&nbsp;New User</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- bread crumb end -->
+
+        <div class="main_content">
+            <!-- user management start -->
+            <section id="user_manage" class="">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12 col-md-12 col-sm-12 col-12">
+                            <div class="section_title">
+                                <h1 class="title">New User</h1>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="new_user_content inner_content_gap">
+                        <form action="#" method="POST">
+
+                            <div class="form-group">
+                                <div class="row">
+                                    <div class="col-lg-6 col-md-6 col-sm-12 col-12">
+                                        <label for="username">*User Name</label>
+                                        <input type="text" id="username" class="form-control"></div>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="form-row">
+                                    <div class="col">
+                                        <label for="name">*Full Name</label>
+                                        <input type="text" id="name" class="form-control" placeholder="">
+                                    </div>
+                                    <div class="col">
+                                        <label for="email">*Email ID</label>
+                                        <input type="email" id="email" class="form-control" placeholder="">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="form-row">
+                                    <div class="col">
+                                        <label for="phone">*Phone Number</label>
+                                        <input type="text" id="name" class="form-control" placeholder="">
+                                    </div>
+                                    <div class="col">
+                                        <label for="type">*Please Select Type</label>
+                                        <select name="type" id="type" class="form-control">
+                                            <option value="1" selected>User</option>
+                                            <option value="2">Admin</option>
+                                            <option value="3">Moderator</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="address">*Full Address</label>
+                                <textarea name="address" id="address" cols="" rows="2" class="form-control"></textarea>
+                            </div>
+
+                            <button class="custom_btn" type="reset">Reset</button>
+                            <button class="custom_btn" type="submit">Save</button>
+                        </form>
+                    </div>
+
+                </div>
+            </section>
+            <!-- user management end -->
+        </div>
+    </main>
+
+    <footer class="active_side">
+        <section id="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-12">
+                        <div class="footer_content">
+                            <div class="footer_item text-center text-white">
+                                <p>&copy; ReHa | Admin Dashboard, All rights reserved, 2021</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </footer>
+    <!-- all js link -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/custom.js"></script>
+</body>
+
+</html>

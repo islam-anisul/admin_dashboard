@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- all meta -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- all meta -->
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Clicker+Script&display=swap" rel="stylesheet">
+    <!-- fonts -->
+    <!-- all css link -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <!-- all css link -->
+    <title>ReHa | Admin Dashboard</title>
+</head>
+
+<body>
+    <!-- preloader  -->
+    <div id="preloader">
+        <div id="load">
+            <img src="img/preloader.gif" alt="Preloader">
+        </div>
+    </div>
+    <!-- preloader end -->
+    <header>
+        <!-- top bar start         -->
+        <section id="topbar">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-8 col-md-8 col-sm-12 col-12">
+                        <div class="top_left d-flex">
+                            <div class="logo">
+                                <a href="index.html"><img src="img/logo.png" alt="LoGo" class="img-fluid"></a>
+                            </div>
+                            <div class="menu_toggler ml-5">
+                                <div class="toggle_btn"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-12 col-12">
+                        <div class="notification text-right">
+                            <ul>
+                                <li>
+                                    <a href="#" class="notify"><i class="fa fa-envelope-o"></i></a>
+                                    <span class="text-white">5</span>
+                                </li>
+                                <li>
+                                    <a href="#" class="notify"><i class="fa fa-users"></i></a>
+                                    <span class="text-white">15</span>
+                                </li>
+                                <li>
+                                    <a href="#" class="notify"><i class="fa fa-bell-o"></i></a>
+                                    <span class="text-white">5</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- top bar start-->
+
+        <!-- sidebar start -->
+        <section id="sidebar">
+            <div class="sidebar_content">
+                <div class="sidebar_item">
+                    <div class="user">
+                        <img src="img/user.png" alt="User" class="img-fluid">
+                        <p class="user_name">Anisul Islam</p>
+                        <p class="user_stat"><i class="fa fa-circle"></i></p>
+                    </div>
+                    <div class="main_menu">
+                        <ul>
+                            <li class="menu_item"><a href="index.html" class="menu_link"><i
+                                        class="fa fa-home"></i>&nbsp;Dashboard</a></li>
+                            <li class="menu_item"><a href="user_manage.html" class="menu_link"><i
+                                        class="fa fa-user"></i>&nbsp;User
+                                    Management</a></li>
+                            <li class="menu_item"><a href="data_center.html" class="menu_link"><i
+                                        class="fa fa-database">&nbsp;Data
+                                        Center</i></a></li>
+                            <li class="menu_item"><a href="#" class="menu_link"><i class="fa fa-power-off"></i>&nbsp;Log
+                                    Off</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- sidebar end -->
+    </header>
+
+    <main class="active_side">
+        <!-- bread crumb -->
+        <section id="bread_crumb">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-12">
+                        <div class="br_content">
+                            <div class="br_item">
+                                <p><i class="fa fa-home"></i>&nbsp;Home <i class="fa fa-angle-double-right"></i>
+                                    Dashboard</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- bread crumb end -->
+
+        <div class="main_content">
+            <!-- overview start -->
+            <section id="overview">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12 col-md-12 col-sm-12 col-12">
+                            <div class="section_title">
+                                <h1 class="title">Overview</h1>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row inner_content_gap">
+                        <div class="col-lg-4 col-md-4 col-sm-6 col-12">
+                            <div class="box_content ">
+                                <div class="box_item">
+                                    <div class="details">
+                                        <h2 class="box_title">Ecommerce Sites</h2>
+                                        <p>Total Registration: #</p>
+                                        <p>Total Pending: #</p>
+                                        <p>Total Sales: $</p>
+                                        <p class="year"><span>Day: #</span> <span>Month: #</span> <span>Year: #</span>
+                                        </p>
+                                    </div>
+                                    <div class="date">
+                                        <p>
+                                            <a href="#"><i class="fa fa-arrow-up"></i> Date: 5 <sup>th</sup> July,
+                                                2021</a>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-6 col-12">
+                            <div class="box_content">
+                                <div class="box_item">
+                                    <div class="details">
+                                        <h2 class="box_title">Digital Marketing</h2>
+                                        <p>Total Registration: #</p>
+                                        <p>Total Pending: #</p>
+                                        <p>Total Sales: $</p>
+                                        <p class="year"><span>Day: #</span> <span>Month: #</span> <span>Year: #</span>
+                                        </p>
+                                    </div>
+                                    <div class="date">
+                                        <p>
+                                            <a href="#"><i class="fa fa-arrow-up"></i> Date: 5 <sup>th</sup> July,
+                                                2021</a>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-6 col-12">
+                            <div class="box_content">
+                                <div class="box_item">
+                                    <div class="details">
+                                        <h2 class="box_title">Membership</h2>
+                                        <p>Total Registration: #</p>
+                                        <p>Total Pending: #</p>
+                                        <p>Total Saler: #</p>
+                                        <p class="year"><span>Day: #</span> <span>Month: #</span> <span>Year: #</span>
+                                        </p>
+                                    </div>
+                                    <div class="date">
+                                        <p>
+                                            <a href="#"><i class="fa fa-arrow-up"></i> Date: 5 <sup>th</sup> July,
+                                                2021</a>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- overview end -->
+
+            <!-- ecommerce table start -->
+            <section id="e_commerce" class="section_gap">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12 col-md-12 col-sm-12 col-12">
+                            <div class="section_title">
+                                <h1 class="title">Ecommerce Site</h1>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row inner_content_gap">
+                        <div class="col-lg-12 col-md-12 col-sm-12 col-12">
+                            <div class="table_container">
+                                <table class="table custom_tbl">
+                                    <thead>
+                                        <tr>
+                                            <th scope="col">#</th>
+                                            <th scope="col">Date</th>
+                                            <th scope="col">SID</th>
+                                            <th scope="col">Sites</th>
+                                            <th scope="col">Country</th>
+                                            <th scope="col">Plan</th>
+                                            <th scope="col">Status</th>
+                                            <th scope="col">Action</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>1</td>
+                                            <td>05/07/'21</td>
+                                            <td>S-159</td>
+                                            <td>E-Commerce</td>
+                                            <td>Bangladesh</td>
+                                            <td>Premium</td>
+                                            <td>Active</td>
+                                            <td>
+                                                <select name="action" id="action_drop">
+                                                    <option value="1" selected>Please Select</option>
+                                                    <option value="2">Approve</option>
+                                                    <option value="3">Reject</option>
+                                                </select>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>2</td>
+                                            <td>05/07/'21</td>
+                                            <td>S-191</td>
+                                            <td>E-Commerce</td>
+                                            <td>USA</td>
+                                            <td>Premium</td>
+                                            <td>Active</td>
+                                            <td>
+                                                <select name="action" id="action_drop">
+                                                    <option value="1" selected>Please Select</option>
+                                                    <option value="2">Approve</option>
+                                                    <option value="3">Reject</option>
+                                                </select>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- ecommerce table end -->
+
+            <!-- digital marketing start -->
+            <section id="dig_marketing" class="section_gap">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12 col-md-12 col-sm-12 col-12">
+                            <div class="section_title">
+                                <h1 class="title">Digital Marketing</h1>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row inner_content_gap">
+                        <div class="col-lg-12 col-md-12 col-sm-12 col-12">
+                            <div class="table_container">
+                                <table class="table custom_tbl">
+                                    <thead>
+                                        <tr>
+                                            <th scope="col">#</th>
+                                            <th scope="col">Date</th>
+                                            <th scope="col">SID</th>
+                                            <th scope="col">Sites</th>
+                                            <th scope="col">Country</th>
+                                            <th scope="col">Plan</th>
+                                            <th scope="col">Status</th>
+                                            <th scope="col">Action</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>1</td>
+                                            <td>05/07/'21</td>
+                                            <td>S-159</td>
+                                            <td>SMM</td>
+                                            <td>Bangladesh</td>
+                                            <td>Premium</td>
+                                            <td>Active</td>
+                                            <td>
+                                                <select name="action" id="action_drop">
+                                                    <option value="1" selected>Please Select</option>
+                                                    <option value="2">Approve</option>
+                                                    <option value="3">Reject</option>
+                                                </select>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>2</td>
+                                            <td>05/07/'21</td>
+                                            <td>S-191</td>
+                                            <td>SMM</td>
+                                            <td>USA</td>
+                                            <td>Premium</td>
+                                            <td>Active</td>
+                                            <td>
+                                                <select name="action" id="action_drop">
+                                                    <option value="1" selected>Please Select</option>
+                                                    <option value="2">Approve</option>
+                                                    <option value="3">Reject</option>
+                                                </select>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- digital marketing end -->
+
+            <!-- membership start -->
+            <section id="membership" class="section_gap">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12 col-md-12 col-sm-12 col-12">
+                            <div class="section_title">
+                                <h1 class="title">Membership</h1>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row inner_content_gap">
+                        <div class="col-lg-12 col-md-12 col-sm-12 col-12">
+                            <div class="table_container">
+                                <table class="table custom_tbl">
+                                    <thead>
+                                        <tr>
+                                            <th scope="col">#</th>
+                                            <th scope="col">Date</th>
+                                            <th scope="col">ID</th>
+                                            <th scope="col">Sites</th>
+                                            <th scope="col">Country</th>
+                                            <th scope="col">Plan</th>
+                                            <th scope="col">Status</th>
+                                            <th scope="col">Action</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>1</td>
+                                            <td>05/07/'21</td>
+                                            <td>S-159</td>
+                                            <td>SMM</td>
+                                            <td>Bangladesh</td>
+                                            <td>Premium</td>
+                                            <td>Pending</td>
+                                            <td>
+                                                <select name="action" id="action_drop">
+                                                    <option value="1" selected>Please Select</option>
+                                                    <option value="2">Approve</option>
+                                                    <option value="3">Reject</option>
+                                                </select>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>2</td>
+                                            <td>05/07/'21</td>
+                                            <td>S-191</td>
+                                            <td>SMM</td>
+                                            <td>USA</td>
+                                            <td>Basic</td>
+                                            <td>Pending</td>
+                                            <td>
+                                                <select name="action" id="action_drop">
+                                                    <option value="1" selected>Please Select</option>
+                                                    <option value="2">Approve</option>
+                                                    <option value="3">Reject</option>
+                                                </select>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- membership end -->
+        </div>
+    </main>
+
+    <footer class="active_side">
+        <section id="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-12">
+                        <div class="footer_content">
+                            <div class="footer_item text-center text-white">
+                                <p>&copy; ReHa | Admin Dashboard, All rights reserved, 2021</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </footer>
+    <!-- all js link -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/custom.js"></script>
+</body>
+
+</html>
