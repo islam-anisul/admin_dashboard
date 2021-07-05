@@ -84,7 +84,7 @@ main.active_side {
     border-radius: 3px;
 }
 .custom_btn{
-    border: none;
+    border: 1px solid #02346e;
     outline: 0;
     border-radius: 3px;
     font-size: 20px;
@@ -92,6 +92,12 @@ main.active_side {
     background: #02346e;
     padding: 5px 15px;
     cursor: pointer;
+    transition: all linear .3s;
+}
+.custom_btn:hover{
+    color: #02346e;
+    background: none;
+    border: 1px solid #02346e;
 }
 footer{
     margin-top: 50px;
